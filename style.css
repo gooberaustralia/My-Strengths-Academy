@@ -298,8 +298,8 @@ p { line-height: 1.7; }
 }
 
 .site-header.scrolled {
-  background-color: var(--white);
-  box-shadow: var(--shadow-sm);
+  background-color: var(--mint);
+  box-shadow: 0 2px 20px rgba(0,0,0,0.08);
 }
 
 .nav {
@@ -338,8 +338,10 @@ p { line-height: 1.7; }
 }
 
 .site-header.scrolled .logo-badge {
-  border-color: var(--black);
-  color: var(--black);
+  background: linear-gradient(135deg, #F5784A 0%, #D94038 100%);
+  border-color: transparent;
+  color: var(--white);
+  box-shadow: 0 3px 12px rgba(217,64,56,0.35);
 }
 
 .logo-wordmark {
@@ -360,7 +362,12 @@ p { line-height: 1.7; }
   line-height: 1;
 }
 
-.site-header.scrolled .logo-strengths { color: var(--black); }
+.site-header.scrolled .logo-strengths {
+  background: linear-gradient(to right, #EE7B22 0%, #C63268 55%, #9E335D 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
 
 .logo-sub {
   font-family: var(--font-heading);
@@ -406,6 +413,8 @@ p { line-height: 1.7; }
 }
 .nav-link:hover { color: var(--white); }
 .nav-link:hover::after { width: 100%; }
+
+.site-header.scrolled .logo-sub { display: none; }
 
 .site-header.scrolled .nav-link { color: var(--black); }
 .site-header.scrolled .nav-link:hover { color: var(--orange); }
