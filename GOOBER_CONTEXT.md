@@ -1,6 +1,6 @@
 # Goober — live project context
 
-_Updated: 2026-05-13T12:40:18.801Z_
+_Updated: 2026-05-13T15:31:22.771Z_
 
 ## Repository layout (capped)
 📄 About Dan Hardie Bio Pic.png
@@ -8,8 +8,12 @@ _Updated: 2026-05-13T12:40:18.801Z_
 📄 DanSmile.png
 📄 Diego.png
 📄 GOOBER_CONTEXT.md
+📄 NEW Sales Page.docx
 📄 Screenshot 2026-03-31 at 9.54.16 am.png
 📄 Screenshot 2026-03-31 at 9.55.15 am.png
+📄 homeV2-script.js
+📄 homeV2-style.css
+📄 homeV2.html
 📁 images
   📄 dan-bio.png
   📄 dan-bio.webp
@@ -27,11 +31,17 @@ _Updated: 2026-05-13T12:40:18.801Z_
 ## Key files
 - `.goober/usage.json`
 - `GOOBER_CONTEXT.md`
+- `homeV2-style.css`
+- `homeV2.html`
 - `index.html`
 - `style.css`
 - `vercel.json`
 
 ## Git summary (last commit)
+```
+GOOBER_CONTEXT.md | 12 +++++++++++-
+ 1 file changed, 11 insertions(+), 1 deletion(-)
+```
 
 ## Claude Code skills
 
