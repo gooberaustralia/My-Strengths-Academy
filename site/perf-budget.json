@@ -1,0 +1,11 @@
+{
+  "$schema": "https://goober.app/schemas/perf-budget.v1.json",
+  "max_page_html_kb": 80,
+  "max_page_total_kb": 500,
+  "max_image_kb": 250,
+  "image_formats_allowed": ["webp", "avif", "svg", "jpg", "png"],
+  "third_party_scripts_max": 4,
+  "lcp_target_ms": 2000,
+  "cls_target": 0.05,
+  "agent_must_run_lighthouse_before_promote": true
+}

@@ -1,0 +1,8 @@
+{
+  "ga4": { "enabled": false },
+  "meta_pixel": { "enabled": false },
+  "google_ads": { "enabled": false },
+  "tag_manager": { "enabled": false },
+  "hotjar": { "enabled": false },
+  "linkedin": { "enabled": false }
+}

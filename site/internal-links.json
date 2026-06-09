@@ -1,0 +1,32 @@
+{
+  "broken": [],
+  "edges": [
+    {
+      "anchor": "MY\n        \n          STRENGTHS\n          ACADEMY",
+      "from": "/",
+      "to": "/"
+    },
+    {
+      "anchor": "MY\n          \n            STRENGTHS\n            ACADEMY",
+      "from": "/",
+      "to": "/"
+    },
+    {
+      "anchor": "Home V2",
+      "from": "/",
+      "to": "/homeV2"
+    },
+    {
+      "anchor": "MY\n        \n          STRENGTHS\n          ACADEMY",
+      "from": "/homeV2/",
+      "to": "/"
+    },
+    {
+      "anchor": "MY\n          \n            STRENGTHS\n            ACADEMY",
+      "from": "/homeV2/",
+      "to": "/"
+    }
+  ],
+  "generated_by": "siteState",
+  "orphans": []
+}

@@ -1,0 +1,24 @@
+/*
+ * GENERATED from design-guide/tokens.json by the stitch step.
+ * Do NOT hand-edit. To change values, edit tokens.json and re-stitch.
+ */
+:root {
+  /* palette */
+  --color-primary: #2563EB;
+  --color-accent: #F97316;
+  --color-ink: #0F172A;
+  --color-paper: #FFFFFF;
+  --color-muted: #6B7280;
+
+  /* typography */
+  --font-heading: Inter, system-ui, -apple-system, sans-serif;
+  --font-body: Inter, system-ui, -apple-system, sans-serif;
+
+  /* spacing */
+  --spacing-unit: 0.25rem;
+  --page-max: 1200px;
+  --section-y: 4rem;
+
+  /* radius */
+  --radius: 0.5rem;
+}

@@ -1,0 +1,13 @@
+{
+  "name": "my-strengths-academy",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "stitch": "node tools/stitch.js",
+    "dev": "node tools/stitch.js --watch --serve",
+    "verify": "node tools/stitch.js --verify"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

@@ -1,0 +1,33 @@
+/* Reset + base typography. Stable across pages. */
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  color: var(--color-ink);
+  background: var(--color-paper);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-heading); margin: 0 0 0.5em; line-height: 1.2; }
+h1 { font-size: clamp(2rem, 5vw, 3.5rem); }
+h2 { font-size: clamp(1.5rem, 3vw, 2.25rem); }
+h3 { font-size: 1.25rem; }
+p { margin: 0 0 1em; }
+a { color: var(--color-primary); text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { max-width: 100%; height: auto; display: block; }
+.container { max-width: var(--page-max); margin: 0 auto; padding: 0 1.5rem; }
+.lead { font-size: 1.125rem; color: var(--color-muted); }
+.btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-family: var(--font-heading);
+  font-weight: 600;
+  border-radius: var(--radius);
+  text-decoration: none;
+  transition: opacity .15s ease;
+}
+.btn--accent { background: var(--color-accent); color: var(--color-paper); }
+.btn--accent:hover { opacity: 0.9; text-decoration: none; }
