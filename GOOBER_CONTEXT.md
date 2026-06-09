@@ -1,6 +1,6 @@
 # Goober — live project context
 
-_Updated: 2026-05-13T15:31:22.771Z_
+_Updated: 2026-06-09T03:40:25.104Z_
 
 ## Repository layout (capped)
 📄 About Dan Hardie Bio Pic.png
@@ -11,6 +11,7 @@ _Updated: 2026-05-13T15:31:22.771Z_
 📄 NEW Sales Page.docx
 📄 Screenshot 2026-03-31 at 9.54.16 am.png
 📄 Screenshot 2026-03-31 at 9.55.15 am.png
+📄 chat-history.md
 📄 homeV2-script.js
 📄 homeV2-style.css
 📄 homeV2.html
@@ -29,8 +30,10 @@ _Updated: 2026-05-13T15:31:22.771Z_
 📄 vercel.json
 
 ## Key files
+- `.goober/reports/lighthouse-report.json`
 - `.goober/usage.json`
 - `GOOBER_CONTEXT.md`
+- `chat-history.md`
 - `homeV2-style.css`
 - `homeV2.html`
 - `index.html`
@@ -39,8 +42,8 @@ _Updated: 2026-05-13T15:31:22.771Z_
 
 ## Git summary (last commit)
 ```
-GOOBER_CONTEXT.md | 12 +++++++++++-
- 1 file changed, 11 insertions(+), 1 deletion(-)
+GOOBER_CONTEXT.md | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
 ```
 
 ## Claude Code skills
@@ -53,7 +56,6 @@ GOOBER_CONTEXT.md | 12 +++++++++++-
 - `design-system` → `~/.claude/skills/design-system/SKILL.md`
 - `financial-analyst` → `~/.claude/skills/financial-analyst/SKILL.md`
 - `frontend-design` → `~/.claude/skills/frontend-design/SKILL.md`
-- `pdf` → `~/.claude/skills/pdf/SKILL.md`
 - `slides` → `~/.claude/skills/slides/SKILL.md`
 - `ui-styling` → `~/.claude/skills/ui-styling/SKILL.md`
 - `ui-ux-pro-max` → `~/.claude/skills/ui-ux-pro-max/SKILL.md`
