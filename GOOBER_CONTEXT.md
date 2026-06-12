@@ -1,9 +1,11 @@
 # Goober — live project context
 
-_Updated: 2026-06-09T03:40:25.104Z_
+_Updated: 2026-06-10T01:04:13.970Z_
 
 ## Repository layout (capped)
+📄 AGENTS.md
 📄 About Dan Hardie Bio Pic.png
+📄 CLAUDE.md
 📄 Dan.png
 📄 DanSmile.png
 📄 Diego.png
@@ -11,10 +13,34 @@ _Updated: 2026-06-09T03:40:25.104Z_
 📄 NEW Sales Page.docx
 📄 Screenshot 2026-03-31 at 9.54.16 am.png
 📄 Screenshot 2026-03-31 at 9.55.15 am.png
+📁 assets
+  📁 css
+    📄 base.css
+    📄 blog.css
+    📄 components.css
+    📁 pages
+    📄 tokens.css
+  📁 images
+    📁 blog
+  📁 js
+📁 blog
+  📁 _drafts
 📄 chat-history.md
+📁 design-guide
+  📁 checkpoints
+  📄 current.md
+  📄 tokens.json
+📁 dist
+  📁 assets
+    📁 css
+  📄 feed.xml
+  📁 homeV2
+    📄 index.html
+  📄 index.html
+  📄 robots.txt
+  📄 sitemap.xml
 📄 homeV2-script.js
 📄 homeV2-style.css
-📄 homeV2.html
 📁 images
   📄 dan-bio.png
   📄 dan-bio.webp
@@ -24,26 +50,86 @@ _Updated: 2026-06-09T03:40:25.104Z_
   📄 dan-smile.webp
   📄 diego.png
   📄 diego.webp
-📄 index.html
+📄 package.json
+📁 pages
+  📁 _drafts
+  📄 homeV2.html
+  📄 index.html
+📁 partials
+  📄 footer.html
+  📄 header-home.html
+  📄 header.html
+  📄 meta.html
+  📄 nav.html
+  📄 tracking-body-end.html
+  📄 tracking-head.html
 📄 script.js
+📁 site
+  📁 agents
+    📄 seo-optimizer.md
+  📄 assets.json
+  📄 blocks.json
+  📄 blog.json
+  📄 business.json
+  📄 changelog.md
+  📄 drafts.json
+  📄 internal-links.json
+  📄 locations.json
+  📄 pages.json
+  📄 perf-budget.json
+  📄 seo.json
+  📄 tracking.json
 📄 style.css
+📁 tools
+  📄 stitch.js
 📄 vercel.json
 
 ## Key files
 - `.goober/reports/lighthouse-report.json`
 - `.goober/usage.json`
+- `AGENTS.md`
+- `CLAUDE.md`
 - `GOOBER_CONTEXT.md`
+- `assets/css/base.css`
+- `assets/css/blog.css`
+- `assets/css/components.css`
+- `assets/css/tokens.css`
 - `chat-history.md`
+- `design-guide/current.md`
+- `design-guide/tokens.json`
+- `dist/assets/css/base.css`
+- `dist/assets/css/blog.css`
+- `dist/assets/css/components.css`
+- `dist/assets/css/tokens.css`
+- `dist/homeV2/index.html`
+- `dist/index.html`
 - `homeV2-style.css`
-- `homeV2.html`
-- `index.html`
-- `style.css`
-- `vercel.json`
+- `package.json`
+- `pages/homeV2.html`
+- `pages/index.html`
+- `partials/footer.html`
+- `partials/header-home.html`
+- `partials/header.html`
+- `partials/meta.html`
+- `partials/nav.html`
+- `partials/tracking-body-end.html`
+- `partials/tracking-head.html`
+- `site/agents/seo-optimizer.md`
+- `site/assets.json`
+- `site/blocks.json`
+- `site/blog.json`
+- `site/business.json`
+- `site/changelog.md`
+- `site/drafts.json`
+- `site/internal-links.json`
+- `site/locations.json`
+- `site/pages.json`
+- `site/perf-budget.json`
 
 ## Git summary (last commit)
 ```
-GOOBER_CONTEXT.md | 10 ++++++----
- 1 file changed, 6 insertions(+), 4 deletions(-)
+GOOBER_CONTEXT.md | 104 +++++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 95 insertions(+), 9 deletions(-)
 ```
 
 ## Claude Code skills
