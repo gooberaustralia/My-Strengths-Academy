@@ -1,6 +1,6 @@
 # Goober — live project context
 
-_Updated: 2026-06-13T04:06:31.933Z_
+_Updated: 2026-06-13T04:15:31.255Z_
 
 ## Repository layout (capped)
 📄 AGENTS.md
@@ -18,16 +18,9 @@ _Updated: 2026-06-13T04:06:31.933Z_
     📄 base.css
     📄 blog.css
     📄 components.css
-    📁 pages
     📄 tokens.css
-  📁 images
-    📁 blog
-  📁 js
-📁 blog
-  📁 _drafts
 📄 chat-history.md
 📁 design-guide
-  📁 checkpoints
   📄 current.md
   📄 tokens.json
 📁 dist
@@ -52,7 +45,6 @@ _Updated: 2026-06-13T04:06:31.933Z_
   📄 diego.webp
 📄 package.json
 📁 pages
-  📁 _drafts
   📄 homeV2.html
   📄 index.html
 📁 partials
@@ -127,6 +119,11 @@ _Updated: 2026-06-13T04:06:31.933Z_
 - `site/perf-budget.json`
 
 ## Git summary (last commit)
+```
+.goober/usage.json |  4 ++--
+ GOOBER_CONTEXT.md  | 14 +++++---------
+ 2 files changed, 7 insertions(+), 11 deletions(-)
+```
 
 ## Claude Code skills
 
