@@ -1,6 +1,6 @@
 # Goober — live project context
 
-_Updated: 2026-06-13T04:15:31.255Z_
+_Updated: 2026-06-15T08:48:20.124Z_
 
 ## Repository layout (capped)
 📄 AGENTS.md
@@ -120,9 +120,9 @@ _Updated: 2026-06-13T04:15:31.255Z_
 
 ## Git summary (last commit)
 ```
-.goober/usage.json |  4 ++--
- GOOBER_CONTEXT.md  | 14 +++++---------
- 2 files changed, 7 insertions(+), 11 deletions(-)
+.goober/usage.json | 4 ++--
+ GOOBER_CONTEXT.md  | 7 +++----
+ 2 files changed, 5 insertions(+), 6 deletions(-)
 ```
 
 ## Claude Code skills
