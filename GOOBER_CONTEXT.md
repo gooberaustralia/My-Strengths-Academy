@@ -1,6 +1,6 @@
 # Goober — live project context
 
-_Updated: 2026-06-15T08:48:20.124Z_
+_Updated: 2026-06-15T22:22:43.725Z_
 
 ## Repository layout (capped)
 📄 AGENTS.md
@@ -18,7 +18,21 @@ _Updated: 2026-06-15T08:48:20.124Z_
     📄 base.css
     📄 blog.css
     📄 components.css
+    📄 homeV2-style.css
+    📄 style.css
     📄 tokens.css
+  📁 images
+    📄 dan-bio.png
+    📄 dan-bio.webp
+    📄 dan-energy.png
+    📄 dan-energy.webp
+    📄 dan-smile.png
+    📄 dan-smile.webp
+    📄 diego.png
+    📄 diego.webp
+  📁 js
+    📄 homeV2-script.js
+    📄 script.js
 📄 chat-history.md
 📁 design-guide
   📄 current.md
@@ -26,6 +40,8 @@ _Updated: 2026-06-15T08:48:20.124Z_
 📁 dist
   📁 assets
     📁 css
+    📁 images
+    📁 js
   📄 feed.xml
   📁 homeV2
     📄 index.html
@@ -67,14 +83,6 @@ _Updated: 2026-06-15T08:48:20.124Z_
   📄 drafts.json
   📄 internal-links.json
   📄 locations.json
-  📄 pages.json
-  📄 perf-budget.json
-  📄 seo.json
-  📄 tracking.json
-📄 style.css
-📁 tools
-  📄 stitch.js
-📄 vercel.json
 
 ## Key files
 - `.goober/reports/lighthouse-report.json`
@@ -85,6 +93,8 @@ _Updated: 2026-06-15T08:48:20.124Z_
 - `assets/css/base.css`
 - `assets/css/blog.css`
 - `assets/css/components.css`
+- `assets/css/homeV2-style.css`
+- `assets/css/style.css`
 - `assets/css/tokens.css`
 - `chat-history.md`
 - `design-guide/current.md`
@@ -92,6 +102,8 @@ _Updated: 2026-06-15T08:48:20.124Z_
 - `dist/assets/css/base.css`
 - `dist/assets/css/blog.css`
 - `dist/assets/css/components.css`
+- `dist/assets/css/homeV2-style.css`
+- `dist/assets/css/style.css`
 - `dist/assets/css/tokens.css`
 - `dist/homeV2/index.html`
 - `dist/index.html`
@@ -113,16 +125,16 @@ _Updated: 2026-06-15T08:48:20.124Z_
 - `site/business.json`
 - `site/changelog.md`
 - `site/drafts.json`
-- `site/internal-links.json`
-- `site/locations.json`
-- `site/pages.json`
-- `site/perf-budget.json`
 
 ## Git summary (last commit)
 ```
-.goober/usage.json | 4 ++--
- GOOBER_CONTEXT.md  | 7 +++----
- 2 files changed, 5 insertions(+), 6 deletions(-)
+GOOBER_CONTEXT.md      | 44 ++++++++++++++++----------
+ dist/homeV2/index.html | 22 ++++++-------
+ dist/index.html        | 20 ++++++------
+ pages/homeV2.html      | 22 ++++++-------
+ pages/index.html       | 20 ++++++------
+ site/assets.json       | 83 +++++++++++++++++++++++++++++++++++++++++++++++---
+ 6 files changed, 149 insertions(+), 62 deletions(-)
 ```
 
 ## Claude Code skills

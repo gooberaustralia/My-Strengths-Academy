@@ -1,7 +1,82 @@
 {
   "generated_by": "siteState",
-  "images": [],
-  "missing_alt": [],
-  "oversize": [],
-  "unused": []
+  "images": [
+    {
+      "alt": "Dan Hardie — click play to watch the founder story video",
+      "format": "png",
+      "path": "/assets/images/dan-bio.png",
+      "size_kb": 1315,
+      "used_on": [
+        "/"
+      ]
+    },
+    {
+      "format": "webp",
+      "path": "/assets/images/dan-bio.webp",
+      "size_kb": 29,
+      "used_on": []
+    },
+    {
+      "alt": "Dan Hardie — Founder of MyStrengths Academy",
+      "format": "png",
+      "path": "/assets/images/dan-energy.png",
+      "size_kb": 684,
+      "used_on": [
+        "/",
+        "/homeV2/"
+      ]
+    },
+    {
+      "format": "webp",
+      "path": "/assets/images/dan-energy.webp",
+      "size_kb": 35,
+      "used_on": []
+    },
+    {
+      "format": "png",
+      "path": "/assets/images/dan-smile.png",
+      "size_kb": 4096,
+      "used_on": [
+        "/",
+        "/homeV2/"
+      ]
+    },
+    {
+      "format": "webp",
+      "path": "/assets/images/dan-smile.webp",
+      "size_kb": 127,
+      "used_on": []
+    },
+    {
+      "alt": "Diego Luna — Head of Program Delivery at MyStrengths Academy",
+      "format": "png",
+      "path": "/assets/images/diego.png",
+      "size_kb": 642,
+      "used_on": [
+        "/",
+        "/homeV2/"
+      ]
+    },
+    {
+      "format": "webp",
+      "path": "/assets/images/diego.webp",
+      "size_kb": 33,
+      "used_on": []
+    }
+  ],
+  "missing_alt": [
+    "/assets/images/dan-smile.png"
+  ],
+  "oversize": [
+    "/assets/images/dan-bio.png",
+    "/assets/images/dan-energy.png",
+    "/assets/images/dan-smile.png",
+    "/assets/images/diego.png"
+  ],
+  "unused": [
+    "/assets/images/dan-bio.webp",
+    "/assets/images/dan-energy.webp",
+    "/assets/images/dan-smile.webp",
+    "/assets/images/diego.webp"
+  ]
 }
