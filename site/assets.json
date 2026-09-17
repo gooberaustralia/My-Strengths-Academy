@@ -35,7 +35,7 @@
     {
       "format": "png",
       "path": "/assets/images/dan-smile.png",
-      "size_kb": 4096,
+      "size_kb": 1524,
       "used_on": [
         "/",
         "/homeV2/"
@@ -44,7 +44,13 @@
     {
       "format": "webp",
       "path": "/assets/images/dan-smile.webp",
-      "size_kb": 127,
+      "size_kb": 126,
+      "used_on": []
+    },
+    {
+      "format": "jpg",
+      "path": "/assets/images/Diego with the boys.jpg",
+      "size_kb": 365,
       "used_on": []
     },
     {
@@ -68,12 +74,14 @@
     "/assets/images/dan-smile.png"
   ],
   "oversize": [
+    "/assets/images/Diego with the boys.jpg",
     "/assets/images/dan-bio.png",
     "/assets/images/dan-energy.png",
     "/assets/images/dan-smile.png",
     "/assets/images/diego.png"
   ],
   "unused": [
+    "/assets/images/Diego with the boys.jpg",
     "/assets/images/dan-bio.webp",
     "/assets/images/dan-energy.webp",
     "/assets/images/dan-smile.webp",

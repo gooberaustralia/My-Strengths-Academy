@@ -57,3 +57,30 @@ Active by default:
 - `node tools/stitch.js`            — full rebuild → `dist/`
 - `node tools/stitch.js --verify`   — dry-run with validation
 - `node tools/stitch.js --watch --serve` — dev server with live preview
+
+<!-- goober:launch:start -->
+## Launch
+
+Every service this site needs is provisioned as a Vercel environment variable, never as a literal value in HTML, JS, or this repo. Read this before wiring any form, lead hook, or third-party call.
+
+### Hosting: on Vercel
+- The site deploys to Vercel from this folder. `.vercel/project.json` links it to the right Vercel project. Never delete it or hand-edit the ids.
+
+### Email: on Vercel
+Env vars: `EMAIL_PROVIDER`, `SENDGRID_API_KEY`, `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`
+- Every contact or quote form POSTs to `/api/enquiry`. Never a third-party form service, never a `mailto:` action.
+- Never hardcode an email address or an API key in HTML or JS. `api/enquiry.js` and `api/_autoreply.js` already read these env vars, with the baked defaults kept as a fallback.
+
+### CRM connector (optional): skipped
+Env vars: `GOOBER_CONNECTOR_ID`, `GOOBER_CONNECTOR_KEY`, `GOOBER_CONNECTOR_ENDPOINT`
+- Lead hooks POST to `/api/lead` with no key in the page. `window.gooberLead()` already does this. Never add a connector key to HTML or JS.
+- Sites Goober does not manage after launch leave this item off. It is optional.
+
+### Analytics (optional): not set
+- GA4 and Google Ads ids live in `site/tracking.json` and are rendered into `partials/tracking-head.html`. They are not secret and are safe in the page.
+
+### Domain (optional): not set
+- The production domain is whatever is connected in the Domains panel. Never hardcode a domain in HTML or JS. Read `site/business.json`, field `canonical_url`.
+
+After any publish, run the smoke test and fix red items before reporting done. When a new service is needed, add it as a launch item. Do not improvise a `.env` file.
+<!-- goober:launch:end -->

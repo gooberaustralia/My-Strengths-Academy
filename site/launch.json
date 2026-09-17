@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "id": "hosting",
+      "label": "Hosting",
+      "required": true,
+      "status": "provisioned",
+      "envVars": []
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "required": true,
+      "status": "provisioned",
+      "envVars": [
+        "EMAIL_PROVIDER",
+        "SENDGRID_API_KEY",
+        "RESEND_API_KEY",
+        "CONTACT_TO_EMAIL",
+        "CONTACT_FROM_EMAIL"
+      ]
+    },
+    {
+      "id": "crm-connector",
+      "label": "CRM connector",
+      "required": false,
+      "status": "skipped",
+      "envVars": [
+        "GOOBER_CONNECTOR_ID",
+        "GOOBER_CONNECTOR_KEY",
+        "GOOBER_CONNECTOR_ENDPOINT"
+      ]
+    },
+    {
+      "id": "analytics",
+      "label": "Analytics",
+      "required": false,
+      "status": "not_set",
+      "envVars": []
+    },
+    {
+      "id": "domain",
+      "label": "Domain",
+      "required": false,
+      "status": "not_set",
+      "envVars": []
+    }
+  ]
+}
