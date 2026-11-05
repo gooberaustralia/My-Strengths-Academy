@@ -12,11 +12,6 @@
       "to": "/"
     },
     {
-      "anchor": "Home V2",
-      "from": "/",
-      "to": "/homeV2"
-    },
-    {
       "anchor": "MY\n        \n          STRENGTHS\n          ACADEMY",
       "from": "/homeV2/",
       "to": "/"
@@ -28,5 +23,7 @@
     }
   ],
   "generated_by": "siteState",
-  "orphans": []
+  "orphans": [
+    "/homeV2/"
+  ]
 }

@@ -1167,6 +1167,67 @@ p { line-height: 1.7; }
 .success-icon svg { margin: 0 auto; }
 .form-success h3 { font-size: 1.8rem; margin-bottom: var(--space-3); }
 
+/* Kajabi "General Enquiries" embed inside the waitlist card. Kajabi's
+   stylesheet is scoped to #kajabi-form, so every override carries that id.
+   The section carries the heading, so the embed's title and subtitle are
+   hidden; fields and button take the site's type, radius and orange. */
+.waitlist-form-wrap .kajabi-form__title,
+.waitlist-form-wrap .kajabi-form__subtitle { display: none; }
+.waitlist-form-wrap .kajabi-form--inline { padding: 0; border-radius: 0; background: transparent; }
+.waitlist-form-wrap #kajabi-form { font-family: var(--font-body); }
+.waitlist-form-wrap #kajabi-form .kajabi-form__content { max-width: none; }
+.waitlist-form-wrap #kajabi-form fieldset { border: 0; margin: 0; padding: 0; }
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item { margin: 0 0 var(--space-4); }
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item input,
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item select,
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item textarea {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  min-height: 50px;
+  margin: 0;
+  padding: var(--space-3) var(--space-4);
+  border: 2px solid #e5e7eb;
+  border-radius: var(--radius-md);
+  background-color: var(--white);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--black);
+  box-shadow: none;
+  transition: border-color var(--transition-base), box-shadow var(--transition-base);
+}
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item select { padding-right: var(--space-10); }
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item textarea { height: 110px; resize: vertical; }
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item input:hover,
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item select:hover,
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item textarea:hover { border-color: #d1d5db; }
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item input:focus,
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item select:focus,
+.waitlist-form-wrap #kajabi-form .kajabi-form__form-item textarea:focus {
+  outline: none;
+  border-color: var(--orange);
+  box-shadow: 0 0 0 3px rgba(238,123,34,0.15);
+}
+.waitlist-form-wrap #kajabi-form ::placeholder { color: #6b7280; opacity: 1; }
+.waitlist-form-wrap #kajabi-form .kajabi-form__btn {
+  display: block;
+  width: 100%;
+  margin: var(--space-2) 0 0;
+  padding: var(--space-4) var(--space-6);
+  border: 0;
+  border-radius: var(--radius-md);
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  font-weight: 800;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--black);
+  background-color: var(--orange) !important;
+  cursor: pointer;
+}
+.waitlist-form-wrap #kajabi-form .kajabi-form__btn:not(.kajabi-form__btn--disabled):hover { background-color: var(--orange-dark) !important; }
+
 /* ============================================================
    FOOTER
 ============================================================ */

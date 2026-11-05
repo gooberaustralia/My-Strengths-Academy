@@ -125,10 +125,10 @@ build, and deploy cleanly.
 
 Every service this site needs is provisioned as a Vercel environment variable, never as a literal value in HTML, JS, or this repo. Read this before wiring any form, lead hook, or third-party call.
 
-### Hosting: on Vercel
+### Hosting: verified
 - The site deploys to Vercel from this folder. `.vercel/project.json` links it to the right Vercel project. Never delete it or hand-edit the ids.
 
-### Email: on Vercel
+### Email: saved locally
 Env vars: `EMAIL_PROVIDER`, `SENDGRID_API_KEY`, `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL`
 - Every contact or quote form POSTs to `/api/enquiry`. Never a third-party form service, never a `mailto:` action.
 - Never hardcode an email address or an API key in HTML or JS. `api/enquiry.js` and `api/_autoreply.js` already read these env vars, with the baked defaults kept as a fallback.

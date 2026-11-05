@@ -4,14 +4,14 @@
       "id": "hosting",
       "label": "Hosting",
       "required": true,
-      "status": "provisioned",
+      "status": "verified",
       "envVars": []
     },
     {
       "id": "email",
       "label": "Email",
       "required": true,
-      "status": "provisioned",
+      "status": "local",
       "envVars": [
         "EMAIL_PROVIDER",
         "SENDGRID_API_KEY",

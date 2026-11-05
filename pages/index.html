@@ -89,7 +89,6 @@
         <li><a href="#about" class="nav-link">About</a></li>
         <li><a href="#for-you" class="nav-link">Is This For You?</a></li>
         <li><a href="#team" class="nav-link">The Team</a></li>
-        <li><a href="/homeV2" class="nav-link">Home V2</a></li>
         <li><a href="#waitlist" class="btn btn-primary nav-cta">Join the Waitlist</a></li>
       </ul>
     </nav>
@@ -442,76 +441,17 @@
             </ul>
           </div>
           <div class="waitlist-form-wrap animate-in">
-            <!--
-              CONFIGURE: Replace YOUR_FORM_ID with your Formspree form ID.
-              Free setup at https://formspree.io — works perfectly on Vercel static hosting.
-              Alternatively use Netlify Forms, EmailJS, or a Vercel serverless function.
-            -->
-            <form
-              class="waitlist-form"
-              id="waitlist-form"
-              action="https://formspree.io/f/YOUR_FORM_ID"
-              method="POST"
-              novalidate
-              aria-label="Waitlist sign-up form"
-            >
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="first-name">First Name <span class="required" aria-hidden="true">*</span></label>
-                  <input type="text" id="first-name" name="first_name" required aria-required="true" autocomplete="given-name">
-                  <span class="field-error" id="first-name-error" role="alert"></span>
-                </div>
-                <div class="form-group">
-                  <label for="last-name">Last Name <span class="required" aria-hidden="true">*</span></label>
-                  <input type="text" id="last-name" name="last_name" required aria-required="true" autocomplete="family-name">
-                  <span class="field-error" id="last-name-error" role="alert"></span>
-                </div>
-              </div>
-              <div class="form-row">
-                <div class="form-group">
-                  <label for="email">Email <span class="required" aria-hidden="true">*</span></label>
-                  <input type="email" id="email" name="email" required aria-required="true" autocomplete="email">
-                  <span class="field-error" id="email-error" role="alert"></span>
-                </div>
-                <div class="form-group">
-                  <label for="phone">Phone <span class="optional">(optional)</span></label>
-                  <input type="tel" id="phone" name="phone" autocomplete="tel">
-                </div>
-              </div>
-              <div class="form-group">
-                <label for="role">Who are you? <span class="required" aria-hidden="true">*</span></label>
-                <select id="role" name="role" required aria-required="true">
-                  <option value="" disabled selected>Select one...</option>
-                  <option value="parent">Parent</option>
-                  <option value="student">Student</option>
-                  <option value="teacher">Teacher</option>
-                  <option value="other">Other</option>
-                </select>
-                <span class="field-error" id="role-error" role="alert"></span>
-              </div>
-              <div class="form-group">
-                <label for="message">Any specific challenges your teen is facing? <span class="optional">(optional)</span></label>
-                <textarea id="message" name="message" rows="4" placeholder="Share as much or as little as you'd like..."></textarea>
-              </div>
-              <div class="form-submit">
-                <button type="submit" class="btn btn-primary btn-lg btn-full" id="submit-btn">
-                  <span class="btn-label">Join the Waitlist</span>
-                  <span class="btn-loading" aria-hidden="true">Sending...</span>
-                </button>
-              </div>
-              <p class="form-privacy">We respect your privacy. No spam, ever. Unsubscribe any time.</p>
-            </form>
-
-            <div class="form-success" id="form-success" role="alert" aria-live="assertive" hidden>
-              <div class="success-icon" aria-hidden="true">
-                <svg width="40" height="40" viewBox="0 0 24 24" fill="none">
-                  <circle cx="12" cy="12" r="10" fill="#82CCB2"/>
-                  <path d="M8 12l3 3 5-5" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-              </div>
-              <h3>You're on the list!</h3>
-              <p>Thank you for joining the My Strengths Academy waitlist. We'll be in touch soon with early access details.</p>
-            </div>
+            <!-- Kajabi "General Enquiries" form (inline), preset to the Academy. Rendered by document.write, so it must stay a plain inline script. -->
+            <script src="https://mystrengths-parenting.mykajabi.com/forms/2149774778/embed.js"></script>
+            <script>
+              (function () {
+                var about = document.getElementById('form_submission_custom_57');
+                if (about) { about.value = 'MyStrengths Coaching Academy'; }
+                var btn = document.querySelector('.waitlist-form-wrap .kajabi-form__btn');
+                if (btn) { btn.textContent = 'Join the Waitlist'; }
+              })();
+            </script>
+            <p class="form-privacy">We respect your privacy. No spam, ever. Unsubscribe any time.</p>
           </div>
         </div>
       </div>
@@ -545,6 +485,7 @@
       <div class="footer-bottom">
         <p>&copy; <span id="copyright-year">2025</span> My Strengths Academy. All rights reserved.</p>
         <p>Part of the <a href="https://mystrengths.com.au" target="_blank" rel="noopener noreferrer">MyStrengths</a> family.</p>
+        <p>Questions? <a href="mailto:team@mystrengths.com.au">team@mystrengths.com.au</a></p>
       </div>
     </div>
   </footer>

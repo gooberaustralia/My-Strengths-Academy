@@ -1,9 +1,9 @@
 {
-  "name": "my-strengths-academy",
+  "name": "MyStrengths Academy",
   "tagline": "",
   "industry": "",
   "phone": "",
-  "email": "",
+  "email": "team@mystrengths.com.au",
   "canonical_url": "",
   "address": {
     "suburb": "",
@@ -13,5 +13,7 @@
   "primary_services": [],
   "value_props": [],
   "tone": "professional",
-  "social": {}
+  "social": {},
+  "contact_to_email": "team@mystrengths.com.au",
+  "contact_from_email": "noreply@goober.com.au"
 }

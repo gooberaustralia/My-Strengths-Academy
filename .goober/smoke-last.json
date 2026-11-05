@@ -1,0 +1,36 @@
+{
+  "url": "https://my-strengths-academy.vercel.app",
+  "rows": [
+    {
+      "id": "home",
+      "label": "HTTP 200 on /",
+      "status": "pass",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "robots.txt",
+      "label": "robots.txt responds",
+      "status": "pass",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "sitemap.xml",
+      "label": "sitemap.xml responds",
+      "status": "pass",
+      "detail": "HTTP 200"
+    },
+    {
+      "id": "assets",
+      "label": "Every link/script/img on / resolves",
+      "status": "fail",
+      "detail": "3 broken: https://mystrengthsacademy.com.au/, https://fonts.googleapis.com, https://fonts.gstatic.com"
+    },
+    {
+      "id": "enquiry",
+      "label": "POST /api/enquiry (_smoke)",
+      "status": "fail",
+      "detail": "HTTP 404"
+    }
+  ],
+  "ranAt": "2026-09-17T06:46:59.789Z"
+}
